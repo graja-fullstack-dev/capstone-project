@@ -1,0 +1,42 @@
+[
+  {
+    "report_type": "Suspected Adverse Event",
+    "product_name": "Examplomab 50 mg Injection",
+    "batch_id": "LOT-88392",
+    "date_received": "2026-03-02",
+    "reporter_type": "Healthcare Professional",
+    "channel": "Telephone",
+    "description": "Fictional case: caller reported that a trial subject experienced anaphylaxis with difficulty breathing shortly after an injection from this lot. Reporter requested a reference number for follow-up.",
+    "event_description": "Anaphylaxis with difficulty breathing reported shortly after administration.",
+    "event_onset_date": "2026-03-01"
+  },
+  {
+    "report_type": "Product Quality Complaint",
+    "product_name": "Fictazol 10 mg Tablets",
+    "batch_id": "LOT-45210",
+    "date_received": "2026-03-04",
+    "reporter_type": "Consumer",
+    "channel": "Email",
+    "description": "Fictional complaint: several tablets in the blister strip were discolored and one was cracked. Outer carton was intact. Reporter can return the unused strip."
+  },
+  {
+    "report_type": "Suspected Adverse Event",
+    "product_name": "Fictazol 10 mg Tablets",
+    "batch_id": "LOT-45210",
+    "date_received": "2026-03-09",
+    "reporter_type": "Consumer",
+    "channel": "Email",
+    "description": "Fictional case: reporter described mild nausea and a skin rash a few days after starting the tablets and asked how to report it.",
+    "event_description": "Mild nausea and skin rash reported after starting the product.",
+    "event_onset_date": "2026-03-06"
+  },
+  {
+    "report_type": "Product Quality Complaint",
+    "product_name": "Examplomab 50 mg Injection",
+    "batch_id": "LOT-88392",
+    "date_received": "2026-03-11",
+    "reporter_type": "Sales Representative",
+    "channel": "Email",
+    "description": "Fictional complaint: pharmacy staff noticed a leaking vial stopper and a missing patient leaflet in two cartons of this lot."
+  }
+]

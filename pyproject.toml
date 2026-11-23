@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -m \"not models\""
+markers = ["models: needs the downloaded local HF models (run scripts/download_models.py first)"]

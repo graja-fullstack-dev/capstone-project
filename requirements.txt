@@ -1,0 +1,18 @@
+# Pharma Safety Intake & Triage Tracker - runtime + test dependencies
+# Python 3.10+ (developed on 3.12). Install: pip install -r requirements.txt
+
+# --- Application layer ---
+streamlit>=1.67,<2            # local web UI
+pydantic>=2.14,<3             # schemas + type-safe tool-argument validation
+
+# --- Multi-stage hybrid RAG (all local, CPU) ---
+rank-bm25>=0.2.2,<0.3         # Stage 1: BM25 lexical retrieval (k1=1.3, b=0.75)
+sentence-transformers>=6.3,<7 # Stage 2 bi-encoder + Stage 4 cross-encoder
+torch>=2.15,<3                # backend for sentence-transformers
+numpy>=2.5,<3                 # cosine similarity / embedding cache
+
+# --- Agent LLM (OPT-IN ONLY: enabled with PHARMA_ENABLE_CLAUDE=1) ---
+anthropic>=2.12,<3            # Claude tool calling; the only permitted external call
+
+# --- Testing ---
+pytest>=9.2,<10
